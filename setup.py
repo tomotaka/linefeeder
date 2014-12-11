@@ -9,7 +9,7 @@ setup(
     author='Tomotaka Ito',
     author_email='tomotaka.ito@gmail.com',
     url='https://github.com/tomotaka/linefeeder',
-    packages=find_packages(),
+    packages=['linefeeder'],
     license=open('LICENSE').read(),
     include_package_data=True,
     # install_requires=[],
